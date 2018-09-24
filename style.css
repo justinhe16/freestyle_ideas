@@ -1,0 +1,8 @@
+body {
+  background-color: light gray;
+  font-family: Arial;
+}
+
+#concept, #texture, #shape {
+  font-weight: 600;
+}
