@@ -1,8 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700');
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 20vh;
+}
+
 body {
-  background-color: light gray;
-  font-family: Arial;
+  background-color: #FDFFFC;
+  font-family: 'Roboto Slab', serif;
+  font-size: 32px;
+  color: #011627;
+}
+
+#content {
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 30vh;
+  margin-right: 30vh;
 }
 
 #concept, #texture, #shape {
   font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+#concept {
+  color: #2EC4B6;
+}
+
+#texture {
+  color: #E71D36;
+}
+
+#shape {
+  color: #FF9F1C;
+}
+
+#randomize {
+  width: 200px;
+  height: 66px;
+  display: inline-block;
+  /* padding:0.35em 1.2em; */
+  border:0.1em solid #FFFFFF;
+  margin:0 auto;
+  display: block;
+  border-radius: 0.12em;
+  border-color: black;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family:'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+  text-align:center;
+  transition: all 0.2s;
+}
+#randomize:hover {
+  color: white;
+  background-color: black;
+}
+@media all and (max-width:30em){
+ #randomize{
+   display:block;
+   margin:0.4em auto;
+ }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 { margin-top: 10vh; }
+    #content { margin: 0 auto; margin-bottom: 5vh; margin-top: 5vh;}
 }
