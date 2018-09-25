@@ -6,7 +6,10 @@ $(document).ready(function() {
   "acting like a chicken", "acting like a bird", "acting like a cat", "acting like a dog", "creating mountain imagery",
   "using water imagery", "using fire imagery", "using earth imagery", "acting like you're skydiving","pretending to fight an animal",
   "pretending to defend yourself", "pretending to be waiting in line", "pretending to eat a burger", "pretending to eat a messy taco",
-  "pretending to eat a hotdog", "pretending to play basketball", "pretending to play baseball", "pretending like you're hurt"]
+  "pretending to eat a hotdog", "pretending to play basketball", "pretending to play baseball", "pretending like you're hurt",
+  "pretending to be a magician", "pretending to be absorbed in a book", "acting like a fish", "acting like a whale",
+  "acting like a superhero", "acting like an Avenger", "acting like a Youtuber", "acting like a celebrity",
+  "pretending to drink boba", "using space/galaxy imagery", "using jewlery imagery"]
   shapes = ["your head","your elbows","your heels","your hands","your feet","your knees","your hips",
   "your shins","your biceps","your shoulders","your neck","your wrists","your chest","your knees", "your waist",
   "your thighs","your toes","your fingers","threading","tutting","weight transfers","an imaginary sword",
