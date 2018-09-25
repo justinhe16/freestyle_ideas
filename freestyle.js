@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  var engine = Random.engines.browserCrypto;
   concepts = ["drawing circles", "drawing squares", "drawing polygons", "drawing 3D shapes", "using driving imagery",
   "using plane imagery", "acting drunk", "acting high", "acting like a dragon", "acting like a teammate",
   "acting like a famous dancer", "acting like your team coordinator", "acting like a spider", "acting like a monkey",
@@ -19,13 +20,13 @@ $(document).ready(function() {
   "incorporating popular social dances", "incorporating a move from your favorite set", "having all limbs on the floor the entire time",
   "telling a popular bedtime story", "telling a heartbreak story", "telling a movie plot", "bouncing the entire time", "using speed control",
   "being off the ground as much as possible", "crawling", "running"]
-  $('#concept').html(concepts[Math.floor((Math.random() * concepts.length))]);
-  $('#shape').html(shapes[Math.floor((Math.random() * shapes.length))]);
-  $('#texture').html(textures[Math.floor((Math.random() * textures.length))]);
+  $('#concept').html(concepts[Random.integer(0,concepts.length-1)(engine)]);
+  $('#shape').html(shapes[Random.integer(0,shapes.length-1)(engine)]);
+  $('#texture').html(textures[Random.integer(0,textures.length-1)(engine)]);
 
   $("#randomize").click(function() {
-    $('#concept').html(concepts[Math.floor((Math.random() * concepts.length))]);
-    $('#shape').html(shapes[Math.floor((Math.random() * shapes.length))]);
-    $('#texture').html(textures[Math.floor((Math.random() * textures.length))]);
+    $('#concept').html(concepts[Random.integer(0,concepts.length-1)(engine)]);
+    $('#shape').html(shapes[Random.integer(0,shapes.length-1)(engine)]);
+    $('#texture').html(textures[Random.integer(0,textures.length-1)(engine)]);
   });
 });
