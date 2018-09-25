@@ -18,7 +18,7 @@ $(document).ready(function() {
   "your hair", "waves","popping","footwork","house","vogue","krump","weight transfers","energy transfers","polyrhythms",
   "lines","jumps","levels","floorwork"]
   textures = ["being sharp", "being quick", "being slow", "milking", "being sexy", "being smooth", "using wordplay",
-  "grooving", "expressing anger", "expressing sadness", "expressing happiness", "expressing fatigue", "not moving your elbows",
+  "grooving", "expressing anger", "using dime stops", "expressing sadness", "expressing happiness", "expressing fatigue", "not moving your elbows",
   "not moving your knees", "not moving your shoulders", "not changing your level", "not going to your safe move", "facing back the entire time",
   "incorporating popular social dances", "incorporating a move from your favorite set", "having all limbs on the floor the entire time",
   "telling a popular bedtime story", "telling a heartbreak story", "telling a movie plot", "bouncing the entire time", "using speed control",
