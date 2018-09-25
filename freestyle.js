@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var engine = Random.engines.browserCrypto;
+  var engine = Random.engines.mt19937().autoSeed();
   concepts = ["drawing circles", "drawing squares", "drawing polygons", "drawing 3D shapes", "using driving imagery",
   "using plane imagery", "acting drunk", "acting high", "acting like a dragon", "acting like a teammate",
   "acting like a famous dancer", "acting like your team coordinator", "acting like a spider", "acting like a monkey",
